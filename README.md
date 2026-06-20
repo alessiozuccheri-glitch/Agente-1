@@ -28,6 +28,7 @@ passaggi critici (pubblicazione, pagamenti, eliminazioni, modifiche definitive).
 - **Prompt pronti all'uso** → cartella [`prompts/`](prompts/)
 - **Template compilabili** → cartella [`templates/`](templates/)
 - **Motore di scoring (eseguibile)** → cartella [`tools/`](tools/)
+- **🆕 Primo prodotto completo (esempio end-to-end)** → [`esempi/budget-tracker/`](esempi/budget-tracker/) — Smart Budget Tracker: file `.xlsx` con formule, guida PDF, immagini e SEO Etsy, tutti generati e riproducibili.
 
 ---
 
