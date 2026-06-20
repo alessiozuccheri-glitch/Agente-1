@@ -1,0 +1,18 @@
+{
+  "id": "opp_2026_0001",
+  "nome_prodotto": "Planner finanziario / Budget tracker (Google Sheets + PDF)",
+  "nicchia": "finanza personale / produttività",
+  "note_dati": "I valori dei criteri vanno compilati con dati REALI (eRank/Etsy). Quelli qui sono un esempio coerente con la scheda #1 della lista dei 10 prodotti, ancora IPOTESI_DA_VALIDARE.",
+  "criteri": {
+    "domanda": 9,
+    "concorrenza": 6,
+    "evergreen": 10,
+    "facilita_creazione": 9,
+    "margine": 10,
+    "differenziazione": 7,
+    "potenziale_seo": 9,
+    "potenziale_pinterest": 9,
+    "potenziale_ads": 7,
+    "velocita_pubblicazione": 9
+  }
+}

@@ -1,0 +1,22 @@
+# Segreti — mai committare chiavi/credenziali
+.env
+.env.*
+*.key
+secrets/
+credentials.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dati prodotto reali / asset locali (non versionare i prodotti finali)
+/prodotti/
+/output/
+*.zip
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
