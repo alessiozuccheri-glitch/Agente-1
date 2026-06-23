@@ -91,13 +91,20 @@ Pacchetto completo in [`listing-etsy.md`](listing-etsy.md):
 5. 🧑 **GATE 2 + PUBBLICA** — l'agente mostra il riepilogo e attende il tuo OK. *Niente
    pubblicazione automatica.*
 
-## 10. Piano traffico
-- **Pinterest (canale n°1):** 3 pin/settimana usando il prompt pin (#7). Board "Budget &
-  Risparmio", "Finanze personali".
-- **TikTok/Reels:** hook "Da caos a controllo in 5 minuti al mese" → demo schermo 15s.
-- **Etsy Ads:** **dopo** le prime vendite organiche; budget test €3-5/giorno per 7-14 giorni
-  sulle keyword principali. 🧑 **GATE BUDGET** prima di attivare.
-- Sequenza: **organico prima, paid dopo** i primi dati.
+## 10. Piano traffico → ✅ AUTOMATIZZATO
+Generato un **piano marketing di 30 giorni** con il motore `tools/marketing/`. Output reali
+in [`marketing/`](marketing/):
+- `marketing-calendar.csv` — **54 contenuti** (53 organici + 1 proposta ads) pronti per
+  Tailwind/Buffer/Make/n8n
+- `marketing-calendar.md` — calendario leggibile per revisione tono
+- `reels-scripts.md` — script TikTok/Reels pronti (hook → CTA)
+- `pins/pin-00…05.png` — 6 pin Pinterest brandizzati (2:3), riusati/repinnati nel calendario
+
+Cadenza: **Pinterest 5×/sett** (canale n°1), **Reels 2×/sett** (IG+TikTok), Story 2×/sett,
+Email 1×/sett. **Etsy Ads** solo dopo le prime vendite organiche → 🧑 **GATE BUDGET**.
+Sequenza: **organico prima, paid dopo**.
+
+Rigenerare: `python3 ../../tools/marketing/generate.py ../../tools/marketing/product.budget-tracker.json --giorni 30 --pin 6 --out marketing`
 
 ## 11. Prossima azione consigliata
 **Una cosa sola:** apri `file-prodotto/Smart-Budget-Tracker.xlsx` in **Google Sheets** e

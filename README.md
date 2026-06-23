@@ -23,12 +23,14 @@ passaggi critici (pubblicazione, pagamenti, eliminazioni, modifiche definitive).
 | 6 | [Permessi e sicurezza](docs/06-permessi-sicurezza.md) | Cosa può/non può fare, guardrail |
 | 7 | [Piano operativo 7 giorni](docs/07-piano-7-giorni.md) | Cosa fa l'agente giorno per giorno |
 | 8 | [Prima lista 10 prodotti](docs/08-prima-lista-10-prodotti.md) | Idee da validare con metodo |
+| 9 | [Automazione marketing](docs/09-automazione-marketing.md) | Calendario multi-canale + pin automatici |
 | — | [Template output standard](docs/output-template.md) | Il formato fisso di ogni consegna |
 
 - **Prompt pronti all'uso** → cartella [`prompts/`](prompts/)
 - **Template compilabili** → cartella [`templates/`](templates/)
 - **Motore di scoring (eseguibile)** → cartella [`tools/`](tools/)
-- **🆕 Primo prodotto completo (esempio end-to-end)** → [`esempi/budget-tracker/`](esempi/budget-tracker/) — Smart Budget Tracker: file `.xlsx` con formule, guida PDF, immagini e SEO Etsy, tutti generati e riproducibili.
+- **Motore di automazione marketing (eseguibile)** → [`tools/marketing/`](tools/marketing/) — calendario editoriale multi-canale + pin Pinterest generati automaticamente
+- **🆕 Primo prodotto completo (esempio end-to-end)** → [`esempi/budget-tracker/`](esempi/budget-tracker/) — Smart Budget Tracker: file `.xlsx` con formule, guida PDF, immagini, SEO Etsy e [piano marketing 30 giorni](esempi/budget-tracker/marketing/), tutti generati e riproducibili.
 
 ---
 
